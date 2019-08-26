@@ -1,7 +1,9 @@
 public class run{
     public static void main (String [] args){
-        str = "hello world";
+        String str ;
 
-        System.out.println(str);
+        str = String ("hello world");
+
+        System.out.println (str);
     }
 }
