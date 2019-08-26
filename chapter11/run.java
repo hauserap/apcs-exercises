@@ -3,7 +3,9 @@ public class run{
         String str ;
 
         str = new String ("hello world");
+        str2 = new String (" goodbye world");
 
         System.out.println (str);
+        System.out.println(str2);
     }
 }
