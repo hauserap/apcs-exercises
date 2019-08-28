@@ -9,5 +9,7 @@ public class circle{
         double equal = Math.PI * radius * radius;
 
         System.out.println(" area is "+ equal);
+
+        
     }
 }
