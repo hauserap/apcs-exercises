@@ -1,4 +1,4 @@
-import java.until.Scanner;
+import java.util.Scanner;
 
 public class cents{
     public static void main(String [] args){
@@ -8,6 +8,6 @@ public class cents{
 
         double equal = amount/100;
 
-        System.out.println("that is "+ equal +"dollars");
+        System.out.println("that is "+ equal +" dollars");
     }
 }
