@@ -11,8 +11,10 @@ public class Sequential{
 
         if(n>1){
             int sum = (n*(n+1))/2;
+            int loopSum = (n*(n+1))/2;
 
-            System.out.println(sum);
+            System.out.println("Sum is   " + sum);
+            System.out.println("Loop sum is  " + loopSum);
         }
     }
 }
