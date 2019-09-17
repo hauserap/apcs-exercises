@@ -14,9 +14,5 @@ public class Sequential{
 
             System.out.println(sum);
         }
-
-
-
-
     }
 }
