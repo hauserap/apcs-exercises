@@ -5,10 +5,13 @@ public class Sum{
         Scanner scan = new Scanner(System.in);
 
         System.out.println("Enter a number");
+
+        int start = 1;
         
 
-        for(int n = scan.nextInt() ; n<=11 ; n++){
-            System.out.println(n);
+        for(int n = scan.nextInt() ; n<11 ; n++){
+
+            System.out.println(n++);
             
 
         }
