@@ -7,7 +7,7 @@ public class Sum{
         System.out.println("Enter a number");
         
 
-        for(int n = scan.nextInt() ; n<=11 ; n=+2 ){
+        for(int n = scan.nextInt() ; n<=11 ; n++){
             System.out.println(n);
             
 
