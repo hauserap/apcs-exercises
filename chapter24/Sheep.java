@@ -7,7 +7,7 @@ public class Sheep{
         System.out.println("Enter number of years");
         double t = scan.nextInt();
 
-        double sheep = 220/(1 + 10*0.83*t);
+        double sheep = 220*(1 + 10*0.83*t);
 
         System.out.println(sheep);
 
