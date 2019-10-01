@@ -6,7 +6,7 @@ public class Triangle{
   
        int triangular = 0;
        System.out.println("enter your number, less than 99");
-       for(int i = scan.nextInt();i<=99;i++) {
+       for(int i = scan.nextInt();i<=90;i++) {
            triangular = triangular + i;
             System.out.println("Triangular Number for "+ i +" is "+triangular);
        }
