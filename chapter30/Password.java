@@ -1,28 +1,27 @@
 import java.util.Scanner;
 import java.util.Random;
 
-public class Password{
-
-    public static void main(String []args){
-
-        boolean guessedIt = false;
+public class Password {
+    public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
-        System.out.print("Enter a secret password(if it's personal don't worry it's definitely secret)---->");
-        String userPassword = scan.nextLine();
-        System.out.println("Your password is :" + userPassword);
+        Random random = new Random();
 
-        String library = "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789abcdefghijklmnopqrstuvxyz!@#$%^&*()<>?:,./;'[]";
-        Random gotIt = new Random();
-        String cracker = library.substring(gotIt.nextInt() * library.length());
-        int total = 0;
-        int tries = 1; 
+        System.out.println("Enter password 5 letters or less in all lowercase");
+        String usrPass = scan.nextLine();
 
-        if(cracker.equals(userPassword)){
-            guessedIt = true;
+        String guess = "";
+
+        String chara = "abcdefghijklmnopqrstuvwxyz ";
+        int attempts;
+        int t = 0;
+        for (attempts = 0; !guess.equals(usrPass); attempts++) {
+            guess = "";
+            for(t = 0; t < 5; t++) {
+
+                guess += chara.charAt(random.nextInt(chara.length()));
+            }
         }
-        while(!guessedIt){
-            total= total+tries;
-        }
-
+        System.out.println("Here is your password: " + guess);
+        System.out.println("It took " + attempts + " tries to guess it");
     }
 }
