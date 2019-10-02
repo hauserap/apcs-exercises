@@ -16,5 +16,6 @@ public class Square{
         double number = random.nextInt(100)+1;
 
         System.out.println("What is the square root of " + number );
+        
     }
 }
