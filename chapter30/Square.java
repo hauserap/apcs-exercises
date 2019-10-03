@@ -10,6 +10,8 @@ public class Square{
         System.out.println("enter your username player 2");
         String user2 = scan.nextLine();
         System.out.println("User 1 is " + user1 + " User 2 is " + user2 );
+        int points1 = 0;
+        int points2 = 0;
 
         System.out.println("how many rounds?");
 
@@ -21,8 +23,6 @@ public class Square{
             double answer1 = scan.nextDouble();
             System.out.println("what is your answer  " + user2 +" ?");
             double answer2 = scan.nextDouble();
-            int points1 = 0;
-            int points2 = 0;
             if(Math.abs(answer1-answer) <= Math.abs(answer2-answer)){
                 System.out.println(user1 + " is closer! " + user1 +" gets the point!");
                 points1=points1+1;
@@ -31,11 +31,19 @@ public class Square{
                 points2=points2+1;
             }
             System.out.println("current score: " + user1 + " has " + points1 + "   " +user2 + "  has " + points2);
-
-
-
            
-           
+        }
+
+        if(points1>points2){
+            System.out.println(user1 + "  wins the game");
+            System.out.println("Final score :  ");
+            System.out.println(user1 + " has " + points1);
+            System.out.println(user2 + " has " + points2);
+        }else{
+            System.out.println(user2 + " wins the game");
+            System.out.println("Final score :  ");
+            System.out.println(user1 + " has " + points1);
+            System.out.println(user2 + " has " + points2);
         }
        
         
