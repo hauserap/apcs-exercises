@@ -6,6 +6,6 @@ public class Farkle{
         Random random = new Random();
         Scanner scan = new Scanner(System.in);
         
-    
+
     }
 }
