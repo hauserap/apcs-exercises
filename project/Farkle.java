@@ -7,33 +7,13 @@ public class Farkle{
         Scanner scan = new Scanner(System.in);
         
 
-        System.out.println("welcome to farkle. What is your name?");
+        System.out.println("welcome to farkle. What is your name player 1?");
         String name = scan.nextLine();
-        if(name.equals("tayler")){
-            System.out.println("tayler isn't allowed to play. Please leave now");
-        }
-        System.out.println("Hello " + name);
-        
+        System.out.println("Welcome " + name);
+        System.out.println("What is your name player 2?");
+        String name2 = scan.nextLine();
+        System.out.println("Welcome "+ name2);
 
-       
-
-        // for(int rolls = 3; rolls>0 ; rolls--){
-        //     int dice = random.nextInt(6)+1;
-        //     System.out.println("it is "+ name + "'s turn to roll");
-        //     System.out.println("dice is " + dice);
-        //     if(dice==1){
-        //         System.out.println("you get 100 pts");
-        //     } if else(dice == 2){
-        //         System.out.println("you get 200 pts");
-        //     } if else(dice == 3){
-        //         System.out.println("you get 300 pts");
-        //     } if else(dice ==4){
-        //         System.out.println("you get 400 pts");
-        //     }else{
-        //         System.out.println("you get 500 pts");
-        //     }
-            
-        // }
 
 
 
