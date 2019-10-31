@@ -1,7 +1,10 @@
 public class Cone{
     public static void main(String [] args){
-        Cone cone1(12, 4,6, 90);
+        Cone coneOne = new Cone ("cone one", 3.0, 4.,5,90);
 
-        double calculateArea()
+        String name = coneOne.getName();
+        System.out.println(name);
+
+        
     }
 }
