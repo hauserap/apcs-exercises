@@ -7,7 +7,7 @@ public class Flag{
         System.out.println("enter a number");
         int x = scan.nextInt();
         
-        if(x<0 || x>20){
+        if (x<0 || x>20){
            param = -1;
            System.out.println(param);
         } else {
