@@ -8,11 +8,7 @@ public class Exercise2
     System.out.println( "Original Array: " 
         + val[0] + " " + val[1] + " " + val[2] + " " + val[3] );
  
-    // Construct an array object for twice.
 
-    
-    // Put values in twice that are twice the
-    // corresponding values in val.
 
 
  
