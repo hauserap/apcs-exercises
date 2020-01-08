@@ -7,6 +7,7 @@ public class Exercise1
     int sum = 6;
  
     System.out.println( "Sum of all numbers = " + sum );
+    System.out.println("test");
  
    }
 }
